@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+char font[] = "Inconsolata:pixelsize=14:antialias=true:autohint=true";
 int borderpx = 2;
 
 /*
@@ -190,7 +190,7 @@ Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ TERMMOD,              XK_I,           iso14755,       {.i =  0} },
-	{ XK_ANY_MOD,           XK_F6,          swapcolors,     {.i =  0} },
+	{ MODKEY,               XK_Tab,         swapcolors,     {.i =  0} },
 };
 
 /*
